@@ -1,0 +1,69 @@
+*{
+	padding: 50px;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background: rgba(0, 0, 0, 0.2)50%;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(rgba(0, 0, 0, 0.9)50%, rgba(0, 0, 0, 0.9)50%);
+	width: 400px;
+	height: 700px;
+	border-radius: 15px;
+	margin-left: 500px;
+}
+form{
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	justify-content: center;
+}
+.log{
+	padding: 12px;
+	margin: 20px;
+}
+.log h3{
+	font-size: 20px;
+	text-transform: capitalize;
+	border-radius: 10px;
+	background: #fff;
+	padding: 10px;
+	margin-bottom: 20px;
+	color: #000;
+	box-shadow: -5px -5px 4px #33ffd8, -6px -6px 5px #33ffd8;
+}
+.log input{
+    background: transparent;
+    color: #33ffd8;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #33ffd8;
+    margin: 5px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+.log p{
+	color: #33ffd8;
+	margin: 10px;
+	padding: 5px;
+	margin-bottom: 1px;
+}
+.log a{
+	text-decoration: none;
+	color: #33ffd8;
+	margin-top: 0;
+}
+.log button{
+	padding: 10px 15px;
+	width: 100%;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
